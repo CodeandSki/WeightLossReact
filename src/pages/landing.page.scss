@@ -1,0 +1,27 @@
+.landing-page--body {
+    // display: flex; 
+    // align-items: flex-start;
+    background-color:black;
+    height: 100vh;
+}
+
+
+
+//common styling for all themes
+.themed-content {
+    padding: 20px;
+
+ }
+.dark-theme {
+    & .themed-content {
+        background-color: #007dd1;
+        font-family: 'Cinzel', serif;
+        font-size: 46px;
+    }
+}
+.red-theme {
+    & .themed-content {
+        background-color: #AB3116;
+        font-family: 'Cinzel', serif;
+    }
+}
